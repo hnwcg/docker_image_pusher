@@ -1,6 +1,10 @@
 mysql
 nginx
 redis
+mariadb
+bitnami/rabbitmq
 arm64v8/mysql
 arm64v8/nginx
 arm64v8/redis
+arm64v8/mariadb
+arm64v8/rabbitmq
