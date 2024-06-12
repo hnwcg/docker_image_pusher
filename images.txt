@@ -1,5 +1,10 @@
-mysql
-nginx
-redis
-mariadb
-bitnami/rabbitmq
+mysql:latest
+mysql:latest --platform=linux/arm64
+nginx:latest
+nginx:latest --platform=linux/arm64
+redis:latest
+redis:latest --platform=linux/arm64
+mariadb:latest
+mariadb:latest --platform=linux/arm64
+bitnami/rabbitmq:latest
+bitnami/rabbitmq:latest --platform=linux/arm64
