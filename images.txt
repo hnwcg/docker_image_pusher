@@ -1,10 +1,10 @@
 mysql:latest
-mysql:latest --platform=linux/arm64
+--platform linux/arm64 mysql:latest
 nginx:latest
-nginx:latest --platform=linux/arm64
+--platform linux/arm64 nginx:latest
 redis:latest
-redis:latest --platform=linux/arm64
+--platform linux/arm64 redis:latest
 mariadb:latest
-mariadb:latest --platform=linux/arm64
+--platform linux/arm64 mariadb:latest
 bitnami/rabbitmq:latest
-bitnami/rabbitmq:latest --platform=linux/arm64
+--platform linux/arm64 bitnami/rabbitmq:latest
