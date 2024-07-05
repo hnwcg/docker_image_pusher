@@ -9,4 +9,4 @@ mariadb:latest
 bitnami/rabbitmq:latest
 --platform linux/arm64 bitnami/rabbitmq:latest
 bitnami/minio:latest
---platform linux/arm64 bitnami/rabbitmq:latest
+--platform linux/arm64 bitnami/minio:latest
