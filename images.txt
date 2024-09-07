@@ -1,9 +1,13 @@
-mysql:latest
---platform linux/arm64 mysql:latest
 mysql:8.4.0
 --platform linux/arm64 mysql:8.4.0
+mysql:8.4.2
+--platform linux/arm64 mysql:8.4.2
+mysql:latest
+--platform linux/arm64 mysql:latest
 nginx:latest
 --platform linux/arm64 nginx:latest
+redis:7.2.5
+--platform linux/arm64 redis:7.2.5
 redis:latest
 --platform linux/arm64 redis:latest
 mariadb:latest
