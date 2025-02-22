@@ -22,10 +22,6 @@ filebrowser/filebrowser:latest
 --platform linux/arm64 filebrowser/filebrowser:latest
 mongo:latest
 --platform linux/arm64 mongo:latest
-bitnami/mongodb:latest
---platform linux/arm64 bitnami/mongodb:latest
-mongodb/mongodb-community-server:latest
---platform linux/arm64 mongodb/mongodb-community-server:latest
 postgres:latest
 --platform linux/arm64 postgres:latest
 bitnami/postgresql
