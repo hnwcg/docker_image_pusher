@@ -1,5 +1,7 @@
 mysql:8.4.3
 --platform linux/arm64 mysql:8.4.3
+mysql:8.4.4
+--platform linux/arm64 mysql:8.4.4
 mysql:latest
 --platform linux/arm64 mysql:latest
 nginx:latest
@@ -18,7 +20,11 @@ bitnami/minio:latest
 --platform linux/arm64 bitnami/minio:latest
 filebrowser/filebrowser:latest
 --platform linux/arm64 filebrowser/filebrowser:latest
+mongo:latest
+--platform linux/arm64 mongo:latest
 mongodb/mongodb-community-server:latest
 --platform linux/arm64 mongodb/mongodb-community-server:latest
+postgres:latest
+--platform linux/arm64 postgres:latest
 bitnami/postgresql
 --platform linux/arm64 bitnami/postgresql:latest
