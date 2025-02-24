@@ -28,8 +28,6 @@ postgres:latest
 --platform linux/arm64 postgres:latest
 bitnami/postgresql:latest
 --platform linux/arm64 bitnami/postgresql:latest
-xuxueli/xxl-job-admin:latest
---platform linux/arm64 xuxueli/xxl-job-admin:latest
 nacos/nacos-server:latest
 --platform linux/arm64 nacos/nacos-server:latest
 consul:latest
@@ -48,3 +46,4 @@ bitnami/elasticsearch:latest
 --platform linux/arm64 bitnami/elasticsearch:latest
 nextcloud:latest
 --platform linux/arm64 nextcloud:latest
+xuxueli/xxl-job-admin:3.0.0
