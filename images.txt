@@ -42,8 +42,8 @@ registry:2.8.3
 --platform linux/arm64 registry:2.8.3
 registry:latest
 --platform linux/arm64 registry:latest
-elasticsearch:latest
---platform linux/arm64 elasticsearch:latest
+elasticsearch:8.17.2
+--platform linux/arm64 elasticsearch:8.17.2
 bitnami/elasticsearch:latest
 --platform linux/arm64 bitnami/elasticsearch:latest
 nextcloud:latest
