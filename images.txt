@@ -26,3 +26,7 @@ postgres:latest
 --platform linux/arm64 postgres:latest
 bitnami/postgresql
 --platform linux/arm64 bitnami/postgresql:latest
+xuxueli/xxl-job-admin
+--platform linux/arm64 xuxueli/xxl-job-admin
+nacos/nacos-server
+--platform linux/arm64 nacos/nacos-server
