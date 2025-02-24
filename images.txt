@@ -30,8 +30,10 @@ bitnami/postgresql:latest
 --platform linux/arm64 bitnami/postgresql:latest
 nacos/nacos-server:latest
 --platform linux/arm64 nacos/nacos-server:latest
-consul:latest
---platform linux/arm64 consul:latest
+consul:1.15.4
+--platform linux/arm64 consul:1.15.4
+bitnami/consul:latest
+--platform linux/arm64 bitnami/consul:latest
 portainer/portainer-ce:lts
 --platform linux/arm64 portainer/portainer-ce:lts
 portainer/portainer-ce:latest
