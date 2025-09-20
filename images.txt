@@ -48,6 +48,6 @@ bitnami/elasticsearch:latest
 --platform linux/arm64 bitnami/elasticsearch:latest
 nextcloud:latest
 --platform linux/arm64 nextcloud:latest
-timescale/timescaledb:latest
---platform linux/arm64 timescale/timescaledb:latest
+timescale/timescaledb:latest-pg17
+--platform linux/arm64 timescale/timescaledb:latest-pg17
 xuxueli/xxl-job-admin:3.0.0
