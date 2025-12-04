@@ -1,55 +1,71 @@
-mysql:8.4.3
---platform linux/arm64 mysql:8.4.3
-mysql:8.4.4
---platform linux/arm64 mysql:8.4.4
-mysql:8.4.5
---platform linux/arm64 mysql:8.4.5
+mysql:8.4.7
+--platform linux/arm64 mysql:8.4.7
+
 mysql:latest
 --platform linux/arm64 mysql:latest
+
 nginx:latest
 --platform linux/arm64 nginx:latest
+
 redis:6.2.17
 --platform linux/arm64 redis:6.2.17
-redis:7.4.2
---platform linux/arm64 redis:7.4.2
+
+redis:7.4.7
+--platform linux/arm64 redis:7.4.7
+
 redis:latest
 --platform linux/arm64 redis:latest
+
 mariadb:latest
 --platform linux/arm64 mariadb:latest
-bitnami/rabbitmq:latest
---platform linux/arm64 bitnami/rabbitmq:latest
-bitnami/kafka:latest
---platform linux/arm64 bitnami/kafka:latest
-bitnami/minio:latest
---platform linux/arm64 bitnami/minio:latest
+
 filebrowser/filebrowser:latest
 --platform linux/arm64 filebrowser/filebrowser:latest
+
 mongo:latest
 --platform linux/arm64 mongo:latest
+
 postgres:latest
 --platform linux/arm64 postgres:latest
-bitnami/postgresql:latest
---platform linux/arm64 bitnami/postgresql:latest
+
 nacos/nacos-server:latest
 --platform linux/arm64 nacos/nacos-server:latest
+
 consul:1.15.4
 --platform linux/arm64 consul:1.15.4
-bitnami/consul:latest
---platform linux/arm64 bitnami/consul:latest
+
 portainer/portainer-ce:lts
 --platform linux/arm64 portainer/portainer-ce:lts
+
 portainer/portainer-ce:latest
 --platform linux/arm64 portainer/portainer-ce:latest
+
 registry:2.8.3
 --platform linux/arm64 registry:2.8.3
+
 registry:latest
 --platform linux/arm64 registry:latest
+
 elasticsearch:8.17.2
 --platform linux/arm64 elasticsearch:8.17.2
-bitnami/elasticsearch:latest
---platform linux/arm64 bitnami/elasticsearch:latest
+
 nextcloud:latest
 --platform linux/arm64 nextcloud:latest
+
 timescale/timescaledb:latest-pg17
 --platform linux/arm64 timescale/timescaledb:latest-pg17
-xuxueli/xxl-job-admin:3.0.0
+
+xuxueli/xxl-job-admin:3.3.0
+
+# bitnami/rabbitmq:latest
+# --platform linux/arm64 bitnami/rabbitmq:latest
+# bitnami/kafka:latest
+# --platform linux/arm64 bitnami/kafka:latest
+# bitnami/minio:latest
+# --platform linux/arm64 bitnami/minio:latest
+# bitnami/elasticsearch:latest
+# --platform linux/arm64 bitnami/elasticsearch:latest
+# bitnami/consul:latest
+# --platform linux/arm64 bitnami/consul:latest
+# bitnami/postgresql:latest
+# --platform linux/arm64 bitnami/postgresql:latest
